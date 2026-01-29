@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>International Rapier Club | HEMA Rapier fencing</title>
+
+  <meta name="description" content="International Rapier Club — HEMA Rapier fencing / Historical European Martial Arts / レイピア。Beginner-friendly practice group in Japan." />
+
+  <!-- 关键词（Google主要看内容，但这也不坏） -->
+  <meta name="keywords" content="HEMA, Rapier, fencing, Historical European Martial Arts, レイピア, レイピアフェンシング, HEMA Japan" />
+
+  <style>
+    :root{
+      --bg:#0b0c10;
+      --card:#12131a;
+      --text:#f2f3f5;
+      --muted:#b9bcc7;
+      --line:rgba(255,255,255,.12);
+      --accent:#7aa2ff;
+    }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Arial, sans-serif;
+      color:var(--text);
+      background: radial-gradient(1200px 600px at 20% -10%, rgba(122,162,255,.25), transparent 60%),
+                  radial-gradient(900px 500px at 90% 0%, rgba(255,122,182,.16), transparent 55%),
+                  var(--bg);
+      line-height:1.65;
+    }
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 22px 16px 60px;
+    }
+    .hero{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      overflow:hidden;
+      box-shadow: 0 18px 60px rgba(0,0,0,.35);
+    }
+    .hero-img{
+      position:relative;
+      min-height: 220px;
+      background:#111;
+    }
+    .hero-img img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+      filter: contrast(1.05) saturate(1.05);
+    }
+    .hero-body{
+      padding: 18px 18px 20px;
+    }
+    h1{
+      margin:0 0 6px;
+      font-size: 30px;
+      letter-spacing: .3px;
+    }
+    .lead{
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .tag{
+      font-size: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.06);
+      color: var(--text);
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .card{
+      background: rgba(255,255,255,.06);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+    }
+    .card h2{
+      margin:0 0 8px;
+      font-size: 18px;
+    }
+    .card p{
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    a{ color: var(--accent); text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+    .two{
+      display:grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .meta{
+      list-style:none;
+      padding:0;
+      margin: 10px 0 0;
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+    }
+    .meta li{
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.12);
+      color: var(--text);
+    }
+    footer{
+      margin-top: 18px;
+      text-align:center;
+      color: rgba(255,255,255,.55);
+      font-size: 12px;
+    }
+    @media (min-width: 860px){
+      .hero{ grid-template-columns: 1.2fr 1fr; }
+      .hero-img{ min-height: 320px; }
+      .two{ grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- 顶部：图片 + 标题 -->
+    <section class="hero">
+      <div class="hero-img">
+        <!-- 先用示例图片：你之后可以换成自己的 -->
+        <img src="https://images.unsplash.com/photo-1520975958225-2e8b0a8d5a34?auto=format&fit=crop&w=1600&q=80" alt="Rapier fencing / HEMA" />
+      </div>
+
+      <div class="hero-body">
+        <h1>International Rapier Club</h1>
+
+        <p class="lead">
+          HEMA Rapier fencing • Historical European Martial Arts • レイピア<br>
+          A simple, beginner-friendly practice group / directory page.
+        </p>
+
+        <!-- 关键词：放在可见文字里（对SEO更有用） -->
+        <div class="tags" aria-label="keywords">
+          <span class="tag">HEMA</span>
+          <span class="tag">Rapier</span>
+          <span class="tag">fencing</span>
+          <span class="tag">Historical European Martial Arts</span>
+          <span class="tag">レイピア</span>
+        </div>
+
+        <ul class="meta">
+          <li>Beginner-friendly / 初心者歓迎</li>
+          <li>Research & drills / 研究中心</li>
+          <li>Japan / 日本</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 内容区 -->
+    <div class="grid">
+      <div class="two">
+        <section class="card">
+          <h2>About / 概要</h2>
+          <p>
+            We gather people interested in <strong>HEMA Rapier fencing</strong> and practice based on historical sources.
+            <br>
+            レイピアを中心に、史料にもとづいた練習を行います（Historical European Martial Arts / HEMA）。
+          </p>
+        </section>
+
+        <section class="card">
+          <h2>Contact / 連絡先</h2>
+          <p>
+            Please contact us here:
+            <br>
+            <a href="https://note.com/knightsjp">note.com/knightsjp</a>
+          </p>
+          <ul class="meta">
+            <li>HEMA Japan</li>
+            <li>Rapier club</li>
+            <li>レイピア</li>
+          </ul>
+        </section>
+      </div>
+
+      <section class="card">
+        <h2>Practice info / 練習情報</h2>
+        <p>
+          Schedule and location may change. Please check the contact link for the latest updates.
+          <br>
+          練習時間・場所は変動するため、最新情報は連絡先からご確認ください。
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      International Rapier Club • Keywords: HEMA / Rapier / fencing / Historical European Martial Arts / レイピア
+    </footer>
+  </div>
+</body>
+</html>
